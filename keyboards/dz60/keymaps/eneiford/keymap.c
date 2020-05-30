@@ -95,15 +95,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const rgblight_segment_t PROGMEM my_win_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-       {0, 24, HSV_BLUE}
+       {0, 16, HSV_BLUE}
 );
 
 const rgblight_segment_t PROGMEM my_mac_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-       {0, 24, HSV_ORANGE}
+       {0, 16, HSV_ORANGE}
 );
 
 const rgblight_segment_t PROGMEM my_vim_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-       {0, 24, HSV_SPRINGGREEN}
+       {0, 16, HSV_SPRINGGREEN}
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
